@@ -30,6 +30,7 @@ const swiperHome = new Swiper('.home__swiper', {
     loop: true,
     grabCursor: true,
     slidesPerView: "auto",
+    autoplay: true,
 
     navigation: {
         nextEl: '.swiper-button-next',
